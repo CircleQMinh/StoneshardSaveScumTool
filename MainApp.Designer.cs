@@ -104,7 +104,7 @@ namespace StoneshardSaveScum
             buttonMakeBackUp.Name = "buttonMakeBackUp";
             buttonMakeBackUp.Size = new Size(242, 69);
             buttonMakeBackUp.TabIndex = 6;
-            buttonMakeBackUp.Text = "Back Up (require Save and Exit first)";
+            buttonMakeBackUp.Text = "Backup (require Save and Exit first)";
             buttonMakeBackUp.UseVisualStyleBackColor = true;
             buttonMakeBackUp.Click += buttonMakeBackUp_Click;
             // 
@@ -114,7 +114,7 @@ namespace StoneshardSaveScum
             buttonRestoreExitSave.Name = "buttonRestoreExitSave";
             buttonRestoreExitSave.Size = new Size(242, 69);
             buttonRestoreExitSave.TabIndex = 7;
-            buttonRestoreExitSave.Text = "Restore Exit Save from Backup1 (will not overwrite exist one)";
+            buttonRestoreExitSave.Text = "Restore Exit Save from Backup1 (will overwrite exist one)";
             buttonRestoreExitSave.UseVisualStyleBackColor = true;
             buttonRestoreExitSave.Click += buttonRestoreExitSave_Click;
             // 
